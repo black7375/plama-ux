@@ -17,6 +17,7 @@ This files are [KDE Plasma](https://www.kde.org/plasma-desktop)'s improved setti
 
 based on Kubuntu 18.04.
 
+
 * Original
 
 ![Original](resource/Original.jpg)
@@ -33,12 +34,11 @@ based on Kubuntu 18.04.
 
 1. Download files
 
-    git clone https://github.com/black7375/plasma-ux.git
+    `git clone https://github.com/black7375/plasma-ux.git`
 
 2. Copy & Paste
 
-    cp -rf config ~/.config
-    cp -rf local ~/.local
+    `cp -rf config ~/.config && cp -rf local ~/.local`
 
 Now Apply!!
 
@@ -80,11 +80,9 @@ Now Apply!!
 
 * Command Run(Plasma Search)
 ![CommandRun](resource/CommandRun.png)
-Search Program, Files, Directory, Windows, Program Session, Bookmarks, Setting..etc
-
-And can Run Commands, Simple Calculate.
-
-Action like spotlight
+  * Search Program, Files, Directory, Windows, Program Session, Bookmarks, Setting..etc
+  * And can Run Commands, Simple Calculate.
+  * Action like spotlight
 
 * Show Virtual Desktop
 ![VirtualDesktop](resource/VirtualDesktop.png)
@@ -92,17 +90,9 @@ Action like spotlight
 ### Application Improved
 
 ![Application](resource/KDE-Desktop1.png)
-
-1. Set Theme to Breeze: Unified form to Users.
-2. Set Application's Function(Somthing)
-
-*Applied Program: Dolphin(File Manager), Kate(Text Editor), Konsole(Terminal).
-
-* Dolphin
-  Show with Terminal, Preview.
-
-* Kate
-  Set Theme, Show Line number Word wrap mark(Print Margin, 80 columns), Auto Bracket..etc
-
-* Konsole
-  Set Theme(using BlaCk-Void Profile).
+* Set Theme to Breeze: Unified form to Users.
+* Set Application's Function(Somthing)
+* Applied Program: Dolphin(File Manager), Kate(Text Editor), Konsole(Terminal).
+  * Dolphin - Show with Terminal, Preview.
+  * Kate - Set Theme, Show Line number Word wrap mark(Print Margin, 80 columns), Auto Bracket..etc
+  * Konsole - Set Theme(using BlaCk-Void Profile).
