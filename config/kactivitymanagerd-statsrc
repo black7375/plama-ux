@@ -1,0 +1,11 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-23-6e58e63c-aaa0-40f3-8e4b-1dad82a07714]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:org.kde.discover.desktop,applications:libreoffice-startcenter.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kontact.desktop,applications:org.kde.ksysguard.desktop,applications:org.kde.spectacle.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-23-global]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.kate.desktop,applications:org.kde.discover.desktop,applications:libreoffice-startcenter.desktop,applications:org.kde.konsole.desktop,applications:org.kde.kontact.desktop,applications:org.kde.ksysguard.desktop,applications:org.kde.spectacle.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-6e58e63c-aaa0-40f3-8e4b-1dad82a07714]
+ordering=preferred://browser,applications:org.kde.discover.desktop,applications:org.kde.kontact.desktop,applications:org.kde.kate.desktop,applications:libreoffice-startcenter.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.ksysguard.desktop,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,applications:org.kde.spectacle.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=preferred://browser,applications:org.kde.discover.desktop,applications:org.kde.kontact.desktop,applications:org.kde.kate.desktop,applications:libreoffice-startcenter.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.ksysguard.desktop,applications:systemsettings.desktop,applications:org.kde.konsole.desktop,applications:org.kde.spectacle.desktop
