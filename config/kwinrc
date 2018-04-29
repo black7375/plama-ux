@@ -3,6 +3,7 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Number=2
+Rows=1
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -39,15 +40,21 @@ TopRight=None
 coverswitchEnabled=true
 cubeEnabled=true
 cubeslideEnabled=true
+desktopchangeosdEnabled=false
 dimscreenEnabled=true
 flipswitchEnabled=true
 highlightwindowEnabled=true
+kwin4_effect_fadedesktopEnabled=false
 magiclampEnabled=true
 minimizeanimationEnabled=false
 sheetEnabled=true
 slideEnabled=false
 thumbnailasideEnabled=true
 wobblywindowsEnabled=true
+
+[Script-desktopchangeosd]
+PopupHideDelay=1000
+TextOnly=false
 
 [TabBox]
 ActivitiesMode=1
@@ -87,6 +94,7 @@ ElectricBorders=0
 HideUtilityWindowsForInactive=true
 InactiveTabsSkipTaskbar=false
 Placement=Smart
+RollOverDesktops=true
 ShadeHover=true
 ShadeHoverInterval=250
 

@@ -38,7 +38,7 @@ based on Kubuntu 18.04.
 
 2. Copy & Paste
 
-    `cp -rf config ~/.config && cp -rf local ~/.local`
+    `cp -rfv config/* ~/.config && cp -rfv local/* ~/.local`
 
 Now Apply!!
 
