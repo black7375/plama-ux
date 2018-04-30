@@ -4,7 +4,6 @@
 - [Plasma UX](#plasma-ux)
     - [Apply](#apply)
     - [Features](#features)
-        - [Desktop Icons.](#desktop-icons)
         - [Panel Icons.](#panel-icons)
         - [Active Screen Corners and Edge](#active-screen-corners-and-edge)
         - [Application Improved](#application-improved)
@@ -43,10 +42,6 @@ based on Kubuntu 18.04.
 Now Apply!!
 
 ## Features
-
-### Desktop Icons.
-
-![Feature1](resource/Feature1.png)
 
 ### Panel Icons.
 
