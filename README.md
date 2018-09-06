@@ -33,11 +33,11 @@ based on Kubuntu 18.04.
 
 ## Apply.
 
-1. Download files
+1. Download files and cd.
 
-    `git clone https://github.com/black7375/plasma-ux.git`
+    `git clone https://github.com/black7375/plasma-ux.git && cd plasma-ux`
 
-2. Copy & Paste
+2. Copy & Paste.
 
     `cp -rfv config/* ~/.config && cp -rfv local/* ~/.local`
 
