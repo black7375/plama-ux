@@ -1,16 +1,17 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [Plasma UX](#plasma-ux)
-    - [Apply](#apply)
-    - [Features](#features)
+- [Plasma UX.](#plasma-ux)
+    - [Apply.](#apply)
+    - [Features.](#features)
         - [Panel Icons.](#panel-icons)
-        - [Active Screen Corners and Edge](#active-screen-corners-and-edge)
-        - [Application Improved](#application-improved)
+        - [Active Screen Corners and Edge.](#active-screen-corners-and-edge)
+        - [Swipe Touch Screen.](#swipe-touch-screen)
+        - [Application Improved.](#application-improved)
 
 <!-- markdown-toc end -->
 
-# Plasma UX
+# Plasma UX.
 
 This files are [KDE Plasma](https://www.kde.org/plasma-desktop)'s improved setting.
 
@@ -29,7 +30,7 @@ based on Kubuntu 18.04.
 
 ![Plasma2](resource/KDE-Desktop2.png)
 
-## Apply
+## Apply.
 
 1. Download files
 
@@ -41,7 +42,7 @@ based on Kubuntu 18.04.
 
 Now Apply!!
 
-## Features
+## Features.
 
 ### Panel Icons.
 
@@ -58,20 +59,20 @@ Now Apply!!
 * Show Desktop.
 ![ShowDesktop](resource/ShowDesktop.png)
 
-### Active Screen Corners and Edge
+### Active Screen Corners and Edge.
 
 ![ActiveScreen](resource/ActiveScreen.png)
 
-1. Left Top: Show all program's windows.
-2. Right Top: Show this program's windows.
+1. Left Top: Show Virtual Desktop.
+2. Right Top: Show all program windows in this Desktop.
 3. Left Bottom: Command Run(like Spotlight)
-4. Right Bottom: Show Virtual Desktop.
+4. Right Bottom: Show Desktop.
 
-* Show All Program.
+* Show Virtual Desktop.
+![VirtualDesktop](resource/VirtualDesktop.png)
+
+* Show all program windows in this Desktop.
 ![ShowAll](resource/ShowAll.png)
-
-* Show This Program.
-![ShowProgram](resource/ShowProgram.png)
 
 * Command Run(Plasma Search)
 ![CommandRun](resource/CommandRun.png)
@@ -79,10 +80,18 @@ Now Apply!!
   * And can Run Commands, Simple Calculate.
   * Action like spotlight
 
-* Show Virtual Desktop
-![VirtualDesktop](resource/VirtualDesktop.png)
+* Show Desktop.
+![ShowDesktop](resource/ShowDesktop.png)
 
-### Application Improved
+
+### Swipe Touch Screen.
+
+1. Left: Run Program(Start Button)
+2. Right: Show Virtual Desktop.
+3. Top: Show all program windows in All Desktop.
+4. Bottom: Show Desktop.
+
+### Application Improved.
 
 ![Application](resource/KDE-Desktop1.png)
 * Set Theme to Breeze: Unified form to Users.
