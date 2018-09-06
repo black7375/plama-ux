@@ -18,6 +18,12 @@ Show Status Bar=true
 Show Tab Bar=true
 Startup Session=manual
 
+[Konsole]
+AutoSyncronize=true
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
 [MainWindow]
 Height 1080=1015
 State=AAAA/wAAAAD9AAAAAAAAAoAAAAG/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA

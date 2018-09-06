@@ -5,5 +5,10 @@ ColorScheme=Breeze
 Name=Black-Void
 Parent=FALLBACK/
 
+[Interaction Options]
+OpenLinksByDirectClickEnabled=false
+UnderlineFilesEnabled=true
+
 [Terminal Features]
-UrlHintsModifiers=0
+BlinkingCursorEnabled=true
+UrlHintsModifiers=67108864

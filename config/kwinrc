@@ -5,31 +5,29 @@ OpenGLIsUnsafe=false
 Number=2
 Rows=1
 
-[Effect-CoverSwitch]
-TabBox=false
-TabBoxAlternative=false
-
 [Effect-Cube]
 BorderActivate=9
 BorderActivateCylinder=9
 BorderActivateSphere=9
+TouchBorderActivate=9
+TouchBorderActivateCylinder=9
+TouchBorderActivateSphere=9
 
 [Effect-DesktopGrid]
-BorderActivate=3
-
-[Effect-FlipSwitch]
-TabBox=false
-TabBoxAlternative=false
+BorderActivate=7
+TouchBorderActivate=2
 
 [Effect-PresentWindows]
-BorderActivate=9
-BorderActivateAll=7
-BorderActivateClass=1
+BorderActivate=1
+BorderActivateAll=9
+TouchBorderActivate=7
+TouchBorderActivateAll=0
+TouchBorderActivateClass=9
 
 [ElectricBorders]
 Bottom=None
 BottomLeft=KRunner
-BottomRight=None
+BottomRight=ShowDesktop
 Left=None
 Right=None
 Top=None
@@ -37,19 +35,17 @@ TopLeft=None
 TopRight=None
 
 [Plugins]
-coverswitchEnabled=true
 cubeEnabled=true
 cubeslideEnabled=true
 desktopchangeosdEnabled=false
 dimscreenEnabled=true
-flipswitchEnabled=true
-highlightwindowEnabled=true
+glideEnabled=true
 kwin4_effect_fadedesktopEnabled=false
+kwin4_effect_scaleinEnabled=true
 magiclampEnabled=true
 minimizeanimationEnabled=false
 sheetEnabled=true
 slideEnabled=false
-thumbnailasideEnabled=true
 wobblywindowsEnabled=true
 
 [Script-desktopchangeosd]
@@ -57,50 +53,22 @@ PopupHideDelay=1000
 TextOnly=false
 
 [TabBox]
-ActivitiesMode=1
-ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopMode=1
-HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
+TouchBorderActivate=9
+TouchBorderAlternativeActivate=9
 
-[TabBoxAlternative]
-ActivitiesMode=1
-ApplicationsMode=0
-DesktopMode=1
-HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
+[TouchEdges]
+Bottom=ShowDesktop
+Left=ApplicationLauncher
+Right=None
+Top=None
 
 [Windows]
-AutogroupInForeground=true
-AutogroupSimilarWindows=false
 ElectricBorderCooldown=350
 ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
 ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
-HideUtilityWindowsForInactive=true
-InactiveTabsSkipTaskbar=false
-Placement=Smart
 RollOverDesktops=true
-ShadeHover=true
-ShadeHoverInterval=250
-
-[org.kde.kdecoration2]
-BorderSize=Normal
-ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
-CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze

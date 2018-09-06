@@ -19,7 +19,9 @@ wallpaperplugin=org.kde.image
 launcherUrls=file:///usr/share/applications/firefox.desktop
 
 [Containments][1][General]
+arrangement=1
 positions=9,17,desktop:/cantata.desktop,6,1,desktop:/org.kde.knotes.desktop,0,1,desktop:/org.kde.okular.desktop,4,1,desktop:/org.kde.kcalc.desktop,2,1,desktop:/trash.desktop,1,0,desktop:/systemsettings.desktop,7,0,desktop:/firefox.desktop,3,0,desktop:/org.kde.konsole.desktop,5,0,desktop:/libreoffice-startcenter.desktop,3,1,desktop:/org.kde.gwenview.desktop,1,1,desktop:/vlc.desktop,5,1,desktop:/org.kde.ksysguard.desktop,6,0,desktop:/org.kde.discover.desktop,4,0,desktop:/Home.desktop,0,0,desktop:/org.kde.dolphin.desktop,2,0,desktop:/org.kde.spectacle.desktop,8,0
+pressToMoveHelp=false
 sortMode=-1
 
 [Containments][2]
@@ -35,10 +37,6 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][23]
-immutability=1
-plugin=org.kde.plasma.kickerdash
-
 [Containments][2][Applets][23][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
@@ -46,21 +44,28 @@ DialogWidth=720
 [Containments][2][Applets][23][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][24]
-immutability=1
-plugin=org.kde.plasma.icon
-
-[Containments][2][Applets][24][Configuration]
-localPath=/home/black/.local/share/plasma_icons/org.kde.dolphin.desktop
-url=file:///usr/share/applications/org.kde.dolphin.desktop
-
 [Containments][2][Applets][25]
 immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][2][Applets][25][Configuration]
+localPath=/home/black/.local/share/plasma_icons/org.kde.dolphin (1).desktop
+url=file:///usr/share/applications/org.kde.dolphin.desktop
+
+[Containments][2][Applets][26]
+immutability=1
+plugin=org.kde.plasma.icon
+
+[Containments][2][Applets][26][Configuration]
 localPath=/home/black/.local/share/plasma_icons/org.kde.konsole.desktop
 url=file:///usr/share/applications/org.kde.konsole.desktop
+
+[Containments][2][Applets][29]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+
+[Containments][2][Applets][29][Configuration][General]
+favoritesPortedToKAstats=true
 
 [Containments][2][Applets][3]
 immutability=1
@@ -93,6 +98,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][7][Configuration]
+PreloadWeight=39
 SystrayContainmentId=8
 
 [Containments][2][Applets][9]
@@ -104,7 +110,7 @@ DialogHeight=87
 DialogWidth=1920
 
 [Containments][2][General]
-AppletOrder=3;4;24;25;5;6;23;7;9;21
+AppletOrder=3;4;25;26;5;29;6;7;9;10
 
 [Containments][8]
 activityId=
@@ -159,9 +165,15 @@ plugin=org.kde.plasma.networkmanagement
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][8][Applets][21][Configuration]
+PreloadWeight=44
+
 [Containments][8][General]
 extraItems=org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.plasma.battery
 knownItems=org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.bluetooth,org.kde.discovernotifier,org.kde.plasma.battery
+
+[General]
+immutability=2
 
 [ScreenMapping]
 screenMapping=desktop:/org.kde.ksysguard.desktop,0,desktop:/trash.desktop,0,desktop:/libreoffice-startcenter.desktop,0,desktop:/org.kde.dolphin.desktop,0,desktop:/org.kde.konsole.desktop,0,desktop:/vlc.desktop,0,desktop:/org.kde.knotes.desktop,0,desktop:/org.kde.discover.desktop,0,desktop:/org.kde.kcalc.desktop,0,desktop:/cantata.desktop,0,desktop:/Home.desktop,0,desktop:/org.kde.gwenview.desktop,0,desktop:/systemsettings.desktop,0,desktop:/org.kde.spectacle.desktop,0,desktop:/org.kde.okular.desktop,0,desktop:/firefox.desktop,0
