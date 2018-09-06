@@ -4,6 +4,7 @@
 - [Plasma UX.](#plasma-ux)
     - [Apply.](#apply)
     - [Features.](#features)
+        - [Taskbar and Window Icons.](#taskbar-and-window-icons)
         - [Panel Icons.](#panel-icons)
         - [Active Screen Corners and Edge.](#active-screen-corners-and-edge)
         - [Swipe Touch Screen.](#swipe-touch-screen)
@@ -43,6 +44,18 @@ based on Kubuntu 18.04.
 Now Apply!!
 
 ## Features.
+
+### Taskbar and Window Icons.
+
+New Feature.
+
+1. Only icons taskbar.  
+Space utilization is better than the original taskbar.
+![Taskbar](resource/IconOnlyTaskBar.png)
+
+2. Always on Top Button.  
+You can always on top some windows.
+![AlwaysToTop](resource/WindowAlwaysTop.png)
 
 ### Panel Icons.
 

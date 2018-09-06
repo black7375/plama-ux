@@ -72,3 +72,9 @@ ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
 RollOverDesktops=true
+
+[org.kde.kdecoration2]
+BorderSize=Normal
+ButtonsOnLeft=MSF
+ButtonsOnRight=HIAX
+CloseOnDoubleClickOnMenu=false
