@@ -1,6 +1,6 @@
 sudo gpasswd -a $USER input
 sudo apt-get update
-sudo apt-get install xdotool wmctrl libinput-tools -y
+sudo apt-get install xdotool wmctrl libinput-tools xserver-xorg-input-libinput xserver-xorg-input-synaptics -y
 
 git clone https://github.com/bulletmark/libinput-gestures.git
 cd libinput-gestures
